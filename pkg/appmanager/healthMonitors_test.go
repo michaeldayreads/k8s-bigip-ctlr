@@ -901,6 +901,7 @@ var _ = Describe("Health Monitor Tests", func() {
 					{
 						"path":     "svc1/",
 						"send":     "HTTP GET /test1",
+						"recv":     "Hello from",
 						"interval": 5,
 						"timeout":  10
 					}
